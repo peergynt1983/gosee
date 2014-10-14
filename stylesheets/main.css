@@ -69,7 +69,7 @@ video#background-video {
 }
 
 .row-content p {
-  text-align: justify;
+  text-align: left;
 }
 
 @media (min-width: 992px) { 
