@@ -51,12 +51,14 @@ body {
   text-align: justify;
 }
 
-.row-content .col-left {
-  padding-right: 40px;
-}
+@media (min-width: 992px) { 
+  .row-content .col-left {
+    padding-right: 40px;
+  }
 
-.row-content .col-right {
-  padding-left: 40px;
+  .row-content .col-right {
+    padding-left: 40px;
+  }
 }
 
 .row-contact {
